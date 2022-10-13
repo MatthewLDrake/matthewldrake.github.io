@@ -1,0 +1,105 @@
+body 
+{
+}
+td
+{
+	margin: 5px;
+}
+.infobox
+{
+	border: 1px solid black;
+	margin: 3px;
+	margin-left:auto;
+	padding: 3px;
+	text-align: left;
+	display: inline-table;
+	float: right;
+}
+.label
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+.rostertable
+{
+	border: 1px solid black;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.wikitable, .wikitable td, .wikitable th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.trade, .trade td
+{
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+.noborder
+{
+	border: 0px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+.noborder th
+{
+		font-size: 20px;
+}
+.teamstandings, .teamstandings td, .teamstandings th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.teamstandings
+{
+	width: 400px;
+}
+.teamstandings th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.teamstandings td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
+.standings, .standings td, .standings th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+.standings
+{
+	width: 400px;
+	margin-left:auto; 	
+    margin-right:auto;
+}
+.standings th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.standings td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
