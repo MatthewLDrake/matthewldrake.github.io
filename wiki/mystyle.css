@@ -4,6 +4,8 @@ body
 td
 {
 	margin: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 .infobox
 {
@@ -28,7 +30,6 @@ td
 	margin: 3px;
 	font-family: "Times New Roman", Times, serif;
 	border-collapse: collapse;
-	width: 1250px
 }
 
 .teamresults
