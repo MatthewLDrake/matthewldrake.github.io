@@ -117,6 +117,24 @@ td
 	font-size: 14px;
 	background-color: #EEEEEE;
 }
+.standingstable, .standingstable td, .standingstable th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.standingstable th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.standingstable td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
 .standings, .standings td, .standings th
 {
 	border: 1px solid black;
