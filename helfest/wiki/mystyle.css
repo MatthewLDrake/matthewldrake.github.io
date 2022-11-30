@@ -1,0 +1,183 @@
+body 
+{
+}
+td
+{
+	margin: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.infobox
+{
+	border: 1px solid black;
+	margin: 3px;
+	margin-left:auto;
+	padding: 3px;
+	text-align: left;
+	display: inline-table;
+	float: right;
+}
+.label
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+.rostertable
+{
+	border: 1px solid black;
+	padding: 3px;
+	margin: 3px;
+	font-family: "Times New Roman", Times, serif;
+	border-collapse: collapse;
+}
+
+.teamresults
+{
+	border: 1px solid black;
+	padding: 3px;
+	margin: 3px;
+	font-family: "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+}
+.wikitable, .wikitable td, .wikitable th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.trade, .trade td
+{
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.noborder
+{
+	border: 0px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+.noborder th
+{
+		font-size: 20px;
+}
+.teamstandings, .teamstandings td, .teamstandings th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.teamstandings
+{
+	width: 400px;
+}
+.teamstandings th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.teamstandings td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
+.standingstable, .standingstable td, .standingstable th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.standingstable th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.standingstable td
+{
+	font-size: 14px;
+}
+.statstable, .statstable td, .statstable th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding: 3px;
+	font-family: "Times New Roman", Times, serif;
+}
+.statstable th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.statstable td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+	text-align: right;
+}
+.standings, .standings td, .standings th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 3px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 10px;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+.standings
+{
+	margin-left:auto; 	
+    margin-right:auto;
+}
+.standings th
+{
+	font-size: 20px;
+	background-color: #CCCCCC;
+}
+.standings td
+{
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
