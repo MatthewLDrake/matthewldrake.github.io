@@ -165,19 +165,50 @@ td
 	font-family: "Times New Roman", Times, serif;
 	
 }
-
-.standings
-{
-	margin-left:auto; 	
-    margin-right:auto;
-}
 .standings th
 {
-	font-size: 20px;
+	font-size: 14px;
 	background-color: #CCCCCC;
 }
 .standings td
 {
 	font-size: 14px;
 	background-color: #EEEEEE;
+}
+
+.rotate 
+{
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 1.5em;
+}
+.rotate div 
+{
+     -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+       -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+         margin-left: -10em;
+         margin-right: -10em;
+		 padding: 1em;
+}
+.box 
+{
+  float: left;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  clear: both;
+}
+
+.jury 
+{
+  background-color: #A4D1EF;
+}
+
+.televote 
+{
+  background-color: #EFA4A9;
 }
