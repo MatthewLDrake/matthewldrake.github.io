@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Oclium In The Helfest Song Contest</h1><hr>
 <h1>Result History</h1><hr><table class="standingstable"><tr><th>Edition</th><th>Artist</th><th>Title</th><th>Place</th><th>Points</th></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest1/OcliumintheHelfestSongContest1.html">1st</a></td><td>Karkaz</td><td>Black & White</td><td>14</td><td>101</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest2/OcliumintheHelfestSongContest2.html">2nd</a></td><td>Tribal Blood</td><td>Madness</td><td>18</td><td>83</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest3/OcliumintheHelfestSongContest3.html">3rd</a></td><td>Polarbearz</td><td>Everyone Goes</td><td>23</td><td>49</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest4/OcliumintheHelfestSongContest4.html">4th</a></td><td>Xyan</td><td>Better Alone (feat. Max Landry)</td><td>6</td><td>152</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest5/OcliumintheHelfestSongContest5.html">5th</a></td><td>Noah Vernon & Nick de la Hoyde</td><td>Anxiety</td><td>21</td><td>58</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest6/OcliumintheHelfestSongContest6.html">6th</a></td><td>Fransis Derelle</td><td>Shapes</td><td>14</td><td>91</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest7/OcliumintheHelfestSongContest7.html">7th</a></td><td>Nurko x Cherney x Elle Vee</td><td>Naked Soul</td><td>23</td><td>51</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest8/OcliumintheHelfestSongContest8.html">8th</a></td><td>Steve Kroeger x Madeleine Daye</td><td>Embers</td><td>16</td><td>95</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest9/OcliumintheHelfestSongContest9.html">9th</a></td><td>Kode PinK, Megan Lee</td><td>Sing</td><td>12</td><td>116</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest10/OcliumintheHelfestSongContest10.html">10th</a></td><td>LE_VI</td><td>Better Off Alone</td><td>7</td><td>133</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest11/OcliumintheHelfestSongContest11.html">11th</a></td><td>HAYZ</td><td>Ready or Not</td><td>12</td><td>123</td></tr></table><br><br><h1>Point History</h1><hr><table style="width:100%"><tr><td style="vertical-align:top;"><b>Most Total Points Given To Oclium<br><table class="standingstable"><tr><th>#</th><th>Region</th><th>Points</th><th>12s</th></tr>
 <tr><th>1</th><td><img src="../images/Tyochia.svg" alt="Tyochia" style="height:18px;"> <a href="../regions/Tyochia.html">Tyochia</a></td><td>91</td><td>2</td></tr>

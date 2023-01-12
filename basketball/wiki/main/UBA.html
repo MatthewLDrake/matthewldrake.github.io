@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../basketball/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Universalis Basketball Association</h1><hr>
 <table style="width:100%"><tr><td style="vertical-align:top;">The Universalis Basketball Association (UBA) is the major men's basketball league in Universalis. It has 32 teams.<br>The league was founded in Naskitrusk, Dotruga on July 11, 2016.</td><td><table class="infobox"><tr><td class="label" colspan="2">Univeralis Basketball Association</td></tr><tr><td class="label" colspan="2">Current Season</td></tr><tr><td colspan="2" style="text-align:center;"><a href="../season12/UBASeason12.html">UBA Season 12</a></td><tr><td colspan="2"><img src="../images/-1.png" alt="UBA Logo" style="width:200px"></td></tr>
 <tr><th>Sport</th><td><a href="https://en.wikipedia.org/wiki/Basketball">Basketball</a></td></tr><tr><th>Founded</th><td>2016</td></tr><tr><th>Inaugural season</th><td><a href="../season1/UBASeason1.html">UBA Season 1</a></td></tr><tr><th>Motto</th><td>"It's a Good Sport"</td></tr><tr><th>No. of teams</th><td>32</td></tr><tr><th>Most Recent Champion</th><td></td></tr><tr><th>Most Titles</th><td></td></tr></table></td></tr></table><br><br><br><br>

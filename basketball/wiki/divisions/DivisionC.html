@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../basketball/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Division C</h1><hr>
 <table style="width:100%"><tr><td style="vertical-align:top;">Division C is one of the four divisions in the UBA, and one of two in the <a href="Northern.html">Northern Conference</a></td><td><table class="infobox"><tr><td class="label" colspan="2">Division C</td></tr><tr><th>Conference</th><td>Northern Conference</td></tr><th>League</th><td><a href="../main/UBA.html">Universalis Basketball<br>Association</a></td></tr><tr><tr><th>Sport</th><td><a href="https://en.wikipedia.org/wiki/Basketball">Basketball</a></td></tr><tr><th>No. of teams</th><td>8</td></tr><tr><th>Most Recent<br>Champion</th><td><a href="../season12/BoltwayBadDragons.html">Boltway Bad Dragons</a><br>(5th title)</td></tr><tr><th>Most Titles</th><td><a href="../teams/BoltwayBadDragons.html">Boltway Bad Dragons</a><br>(5 titles)</td></tr></table></td></tr></table><br><h1>Current Standings</h1><i>Main Article: <a href="../season12/UBASeason12.html">UBA Season 12</a></i><table class="standings">
 	<tr>

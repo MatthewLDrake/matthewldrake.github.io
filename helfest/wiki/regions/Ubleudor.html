@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Ubleudor In The Helfest Song Contest</h1><hr>
 <h1>Result History</h1><hr><table class="standingstable"><tr><th>Edition</th><th>Artist</th><th>Title</th><th>Place</th><th>Points</th></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest1/UbleudorintheHelfestSongContest1.html">1st</a></td><td>Highlnd & Zach Gray</td><td>Pseudo Love</td><td>20</td><td>63</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest2/UbleudorintheHelfestSongContest2.html">2nd</a></td><td>Cheat Codes, Little Mix</td><td>Only You</td><td>13</td><td>116</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest3/UbleudorintheHelfestSongContest3.html">3rd</a></td><td>Kodaline</td><td>Brother</td><td>15</td><td>99</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest4/UbleudorintheHelfestSongContest4.html">4th</a></td><td>Culture Code</td><td>Crying U Out (feat. Dani Poppit)</td><td>22</td><td>66</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest5/UbleudorintheHelfestSongContest5.html">5th</a></td><td>Sandro Cavazza</td><td>Don't Hold Me</td><td>18</td><td>77</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest6/UbleudorintheHelfestSongContest6.html">6th</a></td><td>Koven</td><td>Lions</td><td>17</td><td>66</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest7/UbleudorintheHelfestSongContest7.html">7th</a></td><td>Mr.Kitty</td><td>After Dark</td><td>19</td><td>61</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest8/UbleudorintheHelfestSongContest8.html">8th</a></td><td>Blasterjaxx & Timmy Trumpet</td><td>Narco</td><td>15</td><td>96</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest9/UbleudorintheHelfestSongContest9.html">9th</a></td><td>Savant</td><td>Bevilaqua</td><td>14</td><td>106</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest10/UbleudorintheHelfestSongContest10.html">10th</a></td><td>Dua Lipa & BLACKPINK</td><td>Kiss and Make Up</td><td>10</td><td>124</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest11/UbleudorintheHelfestSongContest11.html">11th</a></td><td>Marianne Beaulieu</td><td>Overflow</td><td>9</td><td>133</td></tr></table><br><br><h1>Point History</h1><hr><table style="width:100%"><tr><td style="vertical-align:top;"><b>Most Total Points Given To Ubleudor<br><table class="standingstable"><tr><th>#</th><th>Region</th><th>Points</th><th>12s</th></tr>
 <tr><th>1</th><td><img src="../images/Cloequa.svg" alt="Cloequa" style="height:18px;"> <a href="../regions/Cloequa.html">Cloequa</a></td><td>120</td><td>4</td></tr>

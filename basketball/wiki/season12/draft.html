@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../basketball/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Season 12 UBA Draft</h1><hr>
 The <b>Season 12 UBA draft</b> was the 12th edition of the <a href="../main/UBA.html">Universalis Basketball Association</a>'s annual <a href="../UniversalisBasketballDraft.html">draft</a>. The first pick was made by the <a href="../teams/HolyYektonisaBishops.html">Holy Yektonisa Bishops</a>, who selected Coom Muas from the <a href="../colleges/UniversityofVienvan.html">University of Vienvan</a>
 

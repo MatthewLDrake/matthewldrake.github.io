@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Tyochia In The Helfest Song Contest</h1><hr>
 <h1>Result History</h1><hr><table class="standingstable"><tr><th>Edition</th><th>Artist</th><th>Title</th><th>Place</th><th>Points</th></tr><tr style="background-color: #FE8080;"><td><a href="../helfest1/TyochiaintheHelfestSongContest1.html">1st</a></td><td>Sorana</td><td>redruM (feat. David Guetta)</td><td>25</td><td>22</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest2/TyochiaintheHelfestSongContest2.html">2nd</a></td><td>Marin Hoxha, Vinsmoker, Sammy Plotkin</td><td>Our Light</td><td>6</td><td>152</td></tr><tr style="background-color: #FE8080;"><td><a href="../helfest3/TyochiaintheHelfestSongContest3.html">3rd</a></td><td>Au5 feat. Diandra Faye</td><td>A Million Miles</td><td>25</td><td>42</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest4/TyochiaintheHelfestSongContest4.html">4th</a></td><td>ItaloBrothers</td><td>Best Mistake</td><td>13</td><td>96</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest5/TyochiaintheHelfestSongContest5.html">5th</a></td><td>Mia Vaile</td><td>Lonely Girl</td><td>19</td><td>72</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest6/TyochiaintheHelfestSongContest6.html">6th</a></td><td>Steve Aoki & KAAZE</td><td>Whole Again ft. John Martin</td><td>18</td><td>66</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest7/TyochiaintheHelfestSongContest7.html">7th</a></td><td>Gryffin & Blanke</td><td>Colors (with Eyelar)</td><td>14</td><td>98</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest8/TyochiaintheHelfestSongContest8.html">8th</a></td><td>David Guetta & Bebe Rexha</td><td>I'm Good (Blue)</td><td>10</td><td>113</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest9/TyochiaintheHelfestSongContest9.html">9th</a></td><td>Egzod</td><td>The Way Out (feat. Bertie Scott)</td><td>20</td><td>77</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest10/TyochiaintheHelfestSongContest10.html">10th</a></td><td>AWAKEND & Ava Silver</td><td>Against the Tide</td><td>9</td><td>126</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest11/TyochiaintheHelfestSongContest11.html">11th</a></td><td>TRUU & TEYA</td><td>Mirror, Mirror</td><td>21</td><td>66</td></tr></table><br><br><h1>Point History</h1><hr><table style="width:100%"><tr><td style="vertical-align:top;"><b>Most Total Points Given To Tyochia<br><table class="standingstable"><tr><th>#</th><th>Region</th><th>Points</th><th>12s</th></tr>
 <tr><th>1</th><td><img src="../images/Ofrael.svg" alt="Ofrael" style="height:18px;"> <a href="../regions/Ofrael.html">Ofrael</a></td><td>81</td><td>3</td></tr>

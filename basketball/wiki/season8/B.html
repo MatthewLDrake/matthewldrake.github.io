@@ -1,3 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UBA Season 8 Division B</title>
+<link rel="stylesheet" href="../mystyle.css">
+</head>
+<body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../basketball/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
+<h1 style="font-size: 40px; text-align: center;">UBA Season 8 Division B</h1><hr>
 <table class="standings">
 	<tr>
 		<th colspan="6" style="text-align:center">Division B</th>
@@ -29,3 +62,5 @@
 		<th style="text-align:center">8</th><td><a href="NovaChrysaliaCrystaliers.html">Nova Chrysalia Crystaliers</a></td><td style="text-align:center">35</td><td style="text-align:center">49</td><td style="text-align:center">.417</td><td style="text-align:center">84</td>
 	</tr>
 </table>
+</body>
+</html>

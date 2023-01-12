@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Atristan in the Helfest Song Contest 3</h1><hr>
 <table style="width:100%"><tr><td style="vertical-align:top;">In the <a href="../helfest3/HelfestSongContest3.html">3rd</a> edition of <a href="../main/Helfest.html">Helfest</a>, <img src="../images/Atristan.svg" alt="Atristan" style="height:18px;"> <a href="../regions/Atristan.html">Atristan</a> got 3rd with 244 points, 137 of those came from the jury and 107 came from the televote.</td><td style="vertical-align:top;"><table class="infobox"><tr><td class="label" colspan="2">Helfest 3</td></tr><tr><th>Region</th><td><img src="../images/Atristan.svg" alt="Atristan" style="height:18px;"> <a href="../regions/Atristan.html">Atristan</a></td></tr><tr><td class="label" colspan="2">Results</td></tr><tr><th>Final Result</th><td>3rd, 244 points</td></tr><tr><td class="label" colspan="2">Atristan In The Helfest Song Contest</td></tr><tr><td><a href="../helfest2/AtristanintheHelfestSongContest2.html">2</a></td><td style="text-align: right;"><a href="../helfest4/AtristanintheHelfestSongContest4.html">4</a></td></tr></table></td></tr></table><h1>Contest</h1><hr><b>Points awarded to Atristan</b><br><table class="standingstable"><tr><th>Score</th><th>Televote</th><th>Jury</th></tr>
 <tr><th>12 points</th><td><img src="../images/Cleystein.svg" alt="Cleystein" style="height:18px;"> <a href="../helfest3/CleysteinintheHelfestSongContest3.html">Cleystein</a><br><img src="../images/Plousau.svg" alt="Plousau" style="height:18px;"> <a href="../helfest3/PlousauintheHelfestSongContest3.html">Plousau</a><br><img src="../images/Aescil.svg" alt="Aescil" style="height:18px;"> <a href="../helfest3/AescilintheHelfestSongContest3.html">Aescil</a><br><img src="../images/Kospaoke.svg" alt="Kospaoke" style="height:18px;"> <a href="../helfest3/KospaokeintheHelfestSongContest3.html">Kospaoke</a><br><img src="../images/Cuchenstan.svg" alt="Cuchenstan" style="height:18px;"> <a href="../helfest3/CuchenstanintheHelfestSongContest3.html">Cuchenstan</a><br><img src="../images/Oclium.svg" alt="Oclium" style="height:18px;"> <a href="../helfest3/OcliumintheHelfestSongContest3.html">Oclium</a><br><img src="../images/Wotriaria.svg" alt="Wotriaria" style="height:18px;"> <a href="../helfest3/WotriariaintheHelfestSongContest3.html">Wotriaria</a><br></td><td><img src="../images/Meshela.svg" alt="Meshela" style="height:18px;"> <a href="../helfest3/MeshelaintheHelfestSongContest3.html">Meshela</a><br><img src="../images/Iagrea.svg" alt="Iagrea" style="height:18px;"> <a href="../helfest3/IagreaintheHelfestSongContest3.html">Iagrea</a><br></td></tr>

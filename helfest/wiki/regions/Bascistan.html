@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="../mystyle.css">
 </head>
 <body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
 <h1 style="font-size: 40px; text-align: center;">Bascistan In The Helfest Song Contest</h1><hr>
 <h1>Result History</h1><hr><table class="standingstable"><tr><th>Edition</th><th>Artist</th><th>Title</th><th>Place</th><th>Points</th></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest1/BascistanintheHelfestSongContest1.html">1st</a></td><td>Contiez, Djuro feat. Iva Rii, Michael Stenberg</td><td>Come Alive</td><td>8</td><td>141</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest2/BascistanintheHelfestSongContest2.html">2nd</a></td><td>Rachel Lorin</td><td>Sink or Swim</td><td>22</td><td>62</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest3/BascistanintheHelfestSongContest3.html">3rd</a></td><td>BUNT.</td><td>Hurricane</td><td>13</td><td>108</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest4/BascistanintheHelfestSongContest4.html">4th</a></td><td>Breathless</td><td>Now You're Gone</td><td>20</td><td>76</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest5/BascistanintheHelfestSongContest5.html">5th</a></td><td>Victor Brodin</td><td>Battle In My Head</td><td>20</td><td>67</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest6/BascistanintheHelfestSongContest6.html">6th</a></td><td>Yoel Lewis & Meital De Razon</td><td>Brave</td><td>20</td><td>58</td></tr><tr style="background-color: #CC9966;"><td><a href="../helfest7/BascistanintheHelfestSongContest7.html">7th</a></td><td>Timmy Trumpet</td><td>Just In Case</td><td>3</td><td>205</td></tr><tr style="background-color: #FE8080;"><td><a href="../helfest8/BascistanintheHelfestSongContest8.html">8th</a></td><td>JAMES V & Marze</td><td>Don't Let Me Fall</td><td>25</td><td>26</td></tr><tr style="background-color: #FE8080;"><td><a href="../helfest9/BascistanintheHelfestSongContest9.html">9th</a></td><td>W&W X AXMO ft. SONJA</td><td>Rave Love</td><td>25</td><td>20</td></tr><tr style="background-color: #FE8080;"><td><a href="../helfest10/BascistanintheHelfestSongContest10.html">10th</a></td><td>Lindsey Stirling</td><td>Love Goes On and On ft. Amy Lee</td><td>25</td><td>32</td></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest11/BascistanintheHelfestSongContest11.html">11th</a></td><td>MaMan</td><td>Our Hearts (feat. Tadeusz)</td><td>11</td><td>125</td></tr></table><br><br><h1>Point History</h1><hr><table style="width:100%"><tr><td style="vertical-align:top;"><b>Most Total Points Given To Bascistan<br><table class="standingstable"><tr><th>#</th><th>Region</th><th>Points</th><th>12s</th></tr>
 <tr><th>1</th><td><img src="../images/Meshela.svg" alt="Meshela" style="height:18px;"> <a href="../regions/Meshela.html">Meshela</a></td><td>87</td><td>0</td></tr>
