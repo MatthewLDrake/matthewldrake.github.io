@@ -4,6 +4,7 @@
 <title>Universalis Event Wikipedias</title>
 <link rel="stylesheet" href="basketball/wiki/mystyle.css">
 </head>
+<script type="text/javascript" src="search.js"></script>
 <div class="topnav">
  <a href="index.html">Home</a>
 <a href="basketball/wiki/main/UBA.html">Basketball</a>
@@ -21,7 +22,7 @@
 </div>
 
 <script>
-autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "");
 document.getElementById('searchbar').addEventListener('submit', function(s) {
   s.preventDefault();
   this.action = this.elements["hide"].value;
