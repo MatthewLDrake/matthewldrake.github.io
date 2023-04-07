@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ryscu In The Helfest Song Contest</title>
+<link rel="stylesheet" href="../mystyle.css">
+</head>
+<body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
+<h1 style="font-size: 40px; text-align: center;">ryscu In The Helfest Song Contest</h1><hr>
+<h1>Result History</h1><hr><table class="standingstable"><tr><th>Edition</th><th>Region</th><th>Title</th><th>Place</th><th>Points</th></tr><tr style="background-color: #EEEEEE;"><td><a href="../helfest9/HelfestSongContest9.html">9th</a></td><td><a href="../helfest9/AclanaintheHelfestSongContest9.html">Aclana</a></td><td>Stay With Me</td><td>4</td><td>167</td></tr></table>
+</body>
+</html>
