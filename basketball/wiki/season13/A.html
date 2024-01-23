@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UBA Season 13 Division A</title>
+<link rel="stylesheet" href="../mystyle.css">
+</head>
+<body>
+<script type="text/javascript" src="../../../search.js"></script>
+<div class="topnav">
+ <a href="../../../index.html">Home</a>
+<a href="../../../basketball/wiki/main/UBA.html">Basketball</a>
+<a href="../../../baseball/wiki/main/UBL.html">Baseball</a>
+<a href="../../../helfest/wiki/main/Helfest.html">Helfest</a>
+  <div class="search-container">
+  <div class="autocomplete" style="width:300px;">
+    <form  autocomplete="off" id="searchbar">
+	<input id="myInput" type="text" placeholder="Search...">
+	<input type="hidden" id="hide" value="">
+	</div>
+	<button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+<script>
+autocomplete(document.getElementById("myInput"), document.getElementById("hide"), "../../../");
+document.getElementById('searchbar').addEventListener('submit', function(s) {
+  s.preventDefault();
+  this.action = this.elements["hide"].value;
+  this.submit();
+});
+</script>
+<h1 style="font-size: 40px; text-align: center;">UBA Season 13 Division A</h1><hr>
+<table class="standings">
+	<tr>
+		<th colspan="6" style="text-align:center">Division A</th>
+	<tr>
+		<th>#</th><th>TEAM</th><th>W</th><th>L</th><th>PCT</th><th>GP</th>
+	</tr>
+	<tr>
+		<th style="text-align:center">1</th><td><b>c</b> - <a href="AuspikitanGoldenFalcons.html">Auspikitan Golden Falcons</a></td><td style="text-align:center">10</td><td style="text-align:center">2</td><td style="text-align:center">.833</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">2</th><td><b>x</b> - <a href="CaltoCows.html">Calto Cows</a></td><td style="text-align:center">9</td><td style="text-align:center">3</td><td style="text-align:center">.750</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">3</th><td><b>x</b> - <a href="SerkrAtolls.html">Serkr Atolls</a></td><td style="text-align:center">7</td><td style="text-align:center">5</td><td style="text-align:center">.583</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">4</th><td><b>x</b> - <a href="AahrusMoosi.html">Aahrus Moosi</a></td><td style="text-align:center">7</td><td style="text-align:center">5</td><td style="text-align:center">.583</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">5</th><td><b>x</b> - <a href="SoleaGeysers.html">Solea Geysers</a></td><td style="text-align:center">6</td><td style="text-align:center">6</td><td style="text-align:center">.500</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">6</th><td><a href="SaguaOcelots.html">Sagua Ocelots</a></td><td style="text-align:center">6</td><td style="text-align:center">6</td><td style="text-align:center">.500</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">7</th><td><a href="ManwxSaguans.html">Manwx Saguans</a></td><td style="text-align:center">4</td><td style="text-align:center">8</td><td style="text-align:center">.333</td><td style="text-align:center">12</td>
+	</tr>
+	<tr>
+		<th style="text-align:center">8</th><td><a href="HeightSaguaCats.html">Height Sagua Cats</a></td><td style="text-align:center">2</td><td style="text-align:center">10</td><td style="text-align:center">.167</td><td style="text-align:center">12</td>
+	</tr>
+</table>
+</body>
+</html>
